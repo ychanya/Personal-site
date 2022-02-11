@@ -32,6 +32,15 @@ p{
   line-height: 2;
 
 }
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
 
 .top-container {
   background-color: #EAF6F6;
@@ -47,8 +56,7 @@ margin: 100px 0;
 .bottom-container{
 background-color:  #66BFBF;
 color:  #EAF6F6;
-padding-top: 30px;
-padding-bottom: 30px;
+padding: 50px 0 20px;
 }
 .web {
   text-decoration: underline;
@@ -70,9 +78,6 @@ padding-bottom: 30px;
 
 }
 
-a {
-  color: #11999E;
-}
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
@@ -121,9 +126,10 @@ a {
 
 }
 
-.c {
-  font-size: 0.8125rem;
-
+.coppyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 .contact-message {
   width: 40%;
